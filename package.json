@@ -8,12 +8,16 @@
     "preview": "astro preview",
     "astro": "astro"
   },
+  "overrides": {
+    "@keystatic/core": "file:../keystatic/packages/keystatic",
+    "@keystatic/astro": "file:../keystatic/packages/astro"
+  },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.12",
     "@astrojs/markdoc": "^0.15.10",
     "@astrojs/react": "^4.4.2",
-    "@keystatic/astro": "^5.0.6",
-    "@keystatic/core": "^0.5.48",
+    "@keystatic/astro": "file:../keystatic/packages/astro",
+    "@keystatic/core": "file:../keystatic/packages/keystatic",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "astro": "^5.17.1",
