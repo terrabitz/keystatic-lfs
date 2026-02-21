@@ -7,7 +7,8 @@ export default config({
     repo: {
       owner: 'terrabitz',
       name: 'keystatic-lfs'
-    }   
+    },
+    lfs: true,
   },
   collections: {
     posts: collection({
