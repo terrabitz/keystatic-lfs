@@ -6,7 +6,7 @@ export default config({
     kind: 'github',
     repo: {
       owner: 'terrabitz',
-      name: 'keystatic-astro-cloudflare-demo'
+      name: 'keystatic-lfs'
     }   
   },
   collections: {
